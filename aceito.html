@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sempre soube</title>
+    <link rel="stylesheet" crossorigin="anonymous" href="./style/style.css">
+</head>
+<body>
+    <main>
+        <h1>Eu já sabia</h1>
+        <h1>😁</h1>
+        <h2></h2>
+    </main>
+
+    <script>
+        const joy = document.querySelector("h2")
+
+        setTimeout(() => {
+            joy.innerText = "Agora volta la pra brincar com o botão que deu muito trampo"
+            setTimeout(() => {
+                window.open("../index.html", "_self")
+            }, 2000)
+        }, 10000)
+    </script>
+</body>
+</html>
