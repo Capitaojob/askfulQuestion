@@ -81,4 +81,15 @@ button {
     h1 {
         font-size: 3em;
     }
+
+    button {
+        width: 8rem;
+        height: 4rem;
+        padding: 10px;
+        box-sizing: content-box;
+    }
+
+    .no {
+        margin-left: 10px;
+    }
 }
